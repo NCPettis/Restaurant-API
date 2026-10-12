@@ -9,17 +9,21 @@
 <body>
 
  <section id="webApp">
-    <h1>Find My Local Foodbank</h1>
+    <img src="img/no-waste.jpg" alt="Downtown London">
+    <section id="container">
+    <header>
+    <h1> ● NO WASTE ●</h1>
 
-    <p> Here in the UK we don't like to waste food that can help those in need. Cities like <strong>Bedford, London, and Notting Hill</strong> are teaming with food banks happy to take on extra ingrediants or meals</p>
+    <p> Welcome to ● NO WASTE ●. An app for restaurants to find out what foods and ingredients local food banks need. Here in the UK we don't like to waste food that can help those in need. Cities like <strong>Bedford, London, and Notting Hill</strong> are teaming with food banks happy to take on extra ingrediants or meals</p>
 
     
     <label for="cityInput">Enter City</label>
     <input type="search" id="cityInput" name="q" />
     <button>Search Here</button>
-
+    </header>
      <p id="foodBanks"></p>
 
+    <div id="table-wrap" >
      <table> 
         <tr>
             <th scope="col">Name</th>
@@ -27,6 +31,8 @@
             <th scope="col">Food Needed</th>
         </tr>
     </table>
+    </div>
+ </section>
 </section>
      
 
